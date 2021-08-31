@@ -1,0 +1,9 @@
+def printN(N):
+	if N > 0:
+		printN(N-1)
+		print (N)
+
+def printN(N):
+	if N > 0:
+		print (N)
+		printN(N-1)
